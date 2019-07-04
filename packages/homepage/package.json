@@ -24,7 +24,8 @@
     "react-media": "^1.6.1",
     "react-transition-group": "^2.2.1",
     "styled-components": "^3.1.4",
-    "three": "^0.87.1"
+    "three": "^0.87.1",
+    "snyk": "^1.189.0"
   },
   "keywords": [
     "gatsby"
@@ -37,7 +38,9 @@
     "start": "gatsby develop",
     "lint": "echo TODO && exit 0",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Todo: no test specified\" && exit 0"
+    "test": "echo \"Todo: no test specified\" && exit 0",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "gatsby-cli": "^1.1.20",
@@ -47,5 +50,6 @@
     "> 1%",
     "IE >= 11",
     "last 2 versions"
-  ]
+  ],
+  "snyk": true
 }
