@@ -168,7 +168,7 @@
     "react-dom": "16.2.0",
     "react-draggable": "^3.0.4",
     "react-draggable-tabs": "^1.0.7",
-    "react-error-overlay": "^1.0.10",
+    "react-error-overlay": "^2.0.0",
     "react-icons": "^2.2.7",
     "react-inspector": "^2.2.0",
     "react-instantsearch": "^4.0.6",
