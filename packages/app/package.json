@@ -114,7 +114,7 @@
     "browser-resolve": "CompuIves/node-browser-resolve",
     "cerebral": "^4.0.0",
     "circular-json": "^0.4.0",
-    "codemirror": "^5.27.4",
+    "codemirror": "^6.0.0",
     "codesandbox-api": "^0.0.14",
     "color": "^0.11.4",
     "compare-versions": "^3.1.0",
